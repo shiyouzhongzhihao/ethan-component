@@ -109,7 +109,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, ref, defineProps, nextTick } from 'vue';
+import { computed, onMounted, ref, nextTick } from 'vue';
 import { useSlots } from 'vue';
 
 interface SearchItem {
